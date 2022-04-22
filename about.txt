@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel='bootstrap_style" href="css/bootstrap_style.css"/>
+	<title>Kristina Randrup About Me</title>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<body>
+<h1>Kristina Randrup | Cartographer & GIS Analyst & Much More</h1>
+
+<p>To start with the basics, I have a BS in Environmental Science and Resource Management, with a concentration in Wildlife 
+Management, which I earned at the University of Washington. At the same time, I earned minors in both Math and Quantitative
+Science. I am on my way towards a Masters in GIS with the University of Wisconsin.</p>
+
+<p>Between undergraduate and graduate programs, I worked as a GIS Intern with The Nature Conservancy for almost a year, primarily
+studying Natural Climate Solutions.</p>
+
+<p> Outside of work and school, I run, run, and run. When I'm not working hard at a computer, I'm working hard on a trail running 
+up a mountain or racing farther than a marathon. Someday I'll hopefully be running on a world team competing on a big stage
+with many top notch athletes.</p>
+
+</body>
+
+</html>
