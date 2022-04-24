@@ -2,136 +2,49 @@
 <html>
 <head>
 	<link rel="stylebasic" href="css/stylebasic.css"/>
-	<title>Kristina Randrup Portfolio</title>
-	<style type="text/CSS">
-	body {
-  		padding-top: 50px;
-  		font-family: 'Lato', serif;
-  		background-color: #B0E0E6;
-  		color: #242424;
-	}
-	.navbar {
-  	position: relative;
-  	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-wrap: wrap;
-  	flex-wrap: wrap;
-  	-ms-flex-align: center;
-  	align-items: center;
-  	-ms-flex-pack: justify;
-  	justify-content: space-between;
-  	padding-top: 1rem;
-  	padding-bottom: 1rem;
-	}
-	.navbar > .container,
-	.navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
-	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-wrap: inherit;
-  	flex-wrap: inherit;
-  	-ms-flex-align: center;
-  	align-items: center;
-  	-ms-flex-pack: justify;
-  	justify-content: space-between;
-	}
-	.navbar-brand {
-  	padding-top: 0.3125rem;
-  	padding-bottom: 0.3125rem;
-  	margin-right: 1rem;
-  	font-size: 1.25rem;
-  	text-decoration: none;
-  	white-space: nowrap;
-	}
-	.navbar-nav {
-  	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-direction: row;
-  	flex-direction: row;
-  	padding-left: 0;
-  	margin-bottom: 0;
-  	list-style: none;
-	}
-	.navbar-nav .nav-link {
-  	padding-right: 3;
-  	padding-left: 3;
-	}
-	.navbar-nav .dropdown-menu {
-  	position: static;
-	}
-	.navbar-text {
-  	padding-top: 0.5rem;
-  	padding-bottom: 0.5rem;
-	}
-	.navbar-collapse {
-  	-ms-flex-preferred-size: 100%;
-  	flex-basis: 100%;
-  	-ms-flex-positive: 1;
-  	flex-grow: 1;
-  	-ms-flex-align: center;
-  	align-items: center;
-	}
-	.navbar-toggler {
-  	padding: 0.25rem 0.75rem;
-  	font-size: 1.25rem;
-  	line-height: 1;
-  	background-color: transparent;
-  	border: 5px solid transparent;
-  	border-radius: 0.25rem;
-  	transition: box-shadow 0.15s ease-in-out;
-	}
-	.navbar-expand-lg {
-    	-ms-flex-wrap: nowrap;
-    	flex-wrap: nowrap;
-    	-ms-flex-pack: start;
-    	justify-content: flex-start;
-  	}
-	.navbar-dark .navbar-brand {
-  	color: #fff;
-	}
-	.bg-primary {
-  	background-color: #80A1A6 !important;
-	}
-	</style>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <title>Kristina Randrup Portfolio</title>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Krisitna Randrup</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.html">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="portfolio.html">Portfolio
-            <span class="visually-hidden">(current)</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div class='navMenu' id='navMenuId'>
+    <a href='index.html' class='main_links'>Home</a>
+    <a href='about.html' class='main_links'>About Me</a>
+    <a href='resume.html' class='main_links'>Resume</a>
+    <a href='portfolio.html' class='main_links'>Portfolio</a>
+    <a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a>
+</div>
 
 <body>
 <h1>Kristina Randrup | Portfolio</h1>
 <div id="content">
+    <p><img src="portfolio/778FinalProject.jpg" alt="778FinalProject"
+    width="918" height="447"/> </p>
+    <p><a href="https://kvrandrup.github.io/778_final_project/" target="_blank">King County Park Access and Census Demographics</a></p>
+
+    <p><img src="portfolio/kryanina.jpg" alt="kryanina"
+            width="918" height="447"/> </p>
+    <p><a href="https://kvrandrup.github.io/kryanina/" target="_blank">Varieties of Democracy Explorer</a></p>
+
+    <p><img src="portfolio/777Project2.jpg" alt="777Project2"
+            width="918" height="447"/> </p>
+    <p><a href="https://kvrandrup.github.io/777project2/" target="_blank">Interactive Seattle Parks App</a></p>
+
+    <p><img src="portfolio/FKTOY_allawards.jpg" alt="FKTOY1"
+            width="864px" height ="648px" /> </p>
+    <p><a href="https://fastestknowntime.com/article/fktoy-na-2020-final-winners" target="_blank">Fastest Known Time of the Year North America Winners</a></p>
+
     <p><img src="portfolio/572Lab2.png" alt="572Lab2" 
-	width="972px" height ="648px" /> </p>
+	width="972" height ="684" /> </p>
 	<p>Ultimate PNW Bike Route</p>
 
-    <p><img src="portfolio/FKTOY_allawards.jpg" alt="FKTOY1" 
-	width="864px" height ="648px" /> </p>
-	<p>Fastest Known Time of the Year North America Winners</p>
+    <p><img src="portfolio/WAPopulationChange.jpg" alt="WAPopulationChange"
+            width="918" height="447"/> </p>
+    <p><a href="https://kvrandrup.github.io/575Lab1/" target="_blank">Interactive Seattle Parks App</a></p>
+
+    <p><img src="portfolio/OlympicMedals.jpg" alt="OlympicMedals"
+            width="805" height="325"/> </p>
+    <p><a href="https://kvrandrup.github.io/d3-coordinated-viz/" target="_blank">Olympic Medals Coordinated Visualization</a></p>
 
     <p><img src="portfolio/370Lab4.jpg" alt="370Lab4" 
 	width="648.75px" height ="486.75px" /> </p>
@@ -143,27 +56,24 @@
 
     <p><img src="portfolio/572Lab1.png" alt="572Lab1" 
 	width="664px" height ="1727px" /> </p>
-	<p>US National Land Cover changes infographic</p>
+	<p>US National Land Cover Changes</p>
 
     <p><img src="portfolio/LongT_M2.jpg" alt="FKTOY2" 
-	width="612px" height ="739.2px" /> </p>
-	<p>Long Trail, FKT of the Year, M2</p>
+	width="459" height ="594px" /> </p>
+	<p><a href="https://fastestknowntime.com/article/fktoy-na-2020-final-winners" target="_blank">Long Trail, FKT of the Year, M2</a></p>
 
     <p><img src="portfolio/Wonderland_F4.jpg" alt="FKTOY3" 
-	width="612px" height ="739.2px" /> </p>
-	<p>Wonderland Trail, FKT of the Year, F4</p>
+	width="459" height ="594px" /> </p>
+    <p><a href="https://fastestknowntime.com/article/fktoy-na-2020-winners-announced-pt-1" target="_blank">Wonderland Trail, FKT of the Year, F4</a></p>
 
     <p><img src="portfolio/370Lab1.jpg" alt="370Lab1" 
 	width="459px" height ="594px" /> </p>
 	<p>Washington State Basics</p>
 
     <p><img src="portfolio/250FerryRoutes.jpg" alt="250FerryRoutes" 
-	width="478.125px" height ="618.75px" /> </p>
+	width="459px" height ="594px" /> </p>
 	<p>Puget Sound Ferry Routes</p>
 
-    <p><img src="portfolio/250MilitaryBases.jpg`" alt="250MilitaryBases" 
-	width="478.125px" height ="618.75px" /> </p>
-	<p>Puget Sound Military Bases</p>
   </div>
 
 </body>

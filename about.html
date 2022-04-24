@@ -2,140 +2,36 @@
 <html>
 <head>
 	<link rel="bootstrap_style" href="css/bootstrap_style.css"/>
-	<title>Kristina Randrup About Me</title>
-	<style type="text/CSS">
-	body {
-  		padding-top: 50px;
-  		font-family: 'Lato', serif;
-  		background-color: #B0E0E6;
-  		color: #242424;
-	}
-	.navbar {
-  	position: relative;
-  	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-wrap: wrap;
-  	flex-wrap: wrap;
-  	-ms-flex-align: center;
-  	align-items: center;
-  	-ms-flex-pack: justify;
-  	justify-content: space-between;
-  	padding-top: 1rem;
-  	padding-bottom: 1rem;
-	}
-	.navbar > .container,
-	.navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
-	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-wrap: inherit;
-  	flex-wrap: inherit;
-  	-ms-flex-align: center;
-  	align-items: center;
-  	-ms-flex-pack: justify;
-  	justify-content: space-between;
-	}
-	.navbar-brand {
-  	padding-top: 0.3125rem;
-  	padding-bottom: 0.3125rem;
-  	margin-right: 1rem;
-  	font-size: 1.25rem;
-  	text-decoration: none;
-  	white-space: nowrap;
-	}
-	.navbar-nav {
-  	display: -ms-flexbox;
-  	display: flex;
-  	-ms-flex-direction: row;
-  	flex-direction: row;
-  	padding-left: 0;
-  	margin-bottom: 0;
-  	list-style: none;
-	}
-	.navbar-nav .nav-link {
-  	padding-right: 3;
-  	padding-left: 3;
-	}
-	.navbar-nav .dropdown-menu {
-  	position: static;
-	}
-	.navbar-text {
-  	padding-top: 0.5rem;
-  	padding-bottom: 0.5rem;
-	}
-	.navbar-collapse {
-  	-ms-flex-preferred-size: 100%;
-  	flex-basis: 100%;
-  	-ms-flex-positive: 1;
-  	flex-grow: 1;
-  	-ms-flex-align: center;
-  	align-items: center;
-	}
-	.navbar-toggler {
-  	padding: 0.25rem 0.75rem;
-  	font-size: 1.25rem;
-  	line-height: 1;
-  	background-color: transparent;
-  	border: 5px solid transparent;
-  	border-radius: 0.25rem;
-  	transition: box-shadow 0.15s ease-in-out;
-	}
-	.navbar-expand-lg {
-    	-ms-flex-wrap: nowrap;
-    	flex-wrap: nowrap;
-    	-ms-flex-pack: start;
-    	justify-content: flex-start;
-  	}
-	.navbar-dark .navbar-brand {
-  	color: #fff;
-	}
-	.bg-primary {
-  	background-color: #80A1A6 !important;
-	}
-	</style>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <title>Kristina Randrup About Me</title>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Kristina Randrup</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home
-            <span class="visually-hidden">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="resume.html">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div class='navMenu' id='navMenuId'>
+  <a href='index.html' class='main_links'>Home</a>
+  <a href='about.html' class='main_links'>About Me</a>
+  <a href='resume.html' class='main_links'>Resume</a>
+  <a href='portfolio.html' class='main_links'>Portfolio</a>
+  <a class='icon' href='javascript:void(0);' onclick='openMenu()'>&#9776;</a>
+</div>
 
 <body>
-<h1>Kristina Randrup | Cartographer & GIS Analyst & Much More</h1>
+<h1><center>Kristina Randrup | Cartographer & GIS Analyst & Much More</center></h1>
 
 <p>To start with the basics, I have a BS in Environmental Science and Resource Management, with a concentration in Wildlife 
 Management, which I earned at the University of Washington. At the same time, I earned minors in both Math and Quantitative
-Science. I am on my way towards a Masters in GIS with the University of Wisconsin.</p>
+Science. I am on my way towards a Masters in GIS with the University of Wisconsin, which I will complete in the coming weeks.</p>
 
 <p>Between undergraduate and graduate programs, I worked as a GIS Intern with The Nature Conservancy for almost a year, primarily
 studying Natural Climate Solutions.</p>
 
 <p> Outside of work and school, I run, run, and run. When I'm not working hard at a computer, I'm working hard on a trail running 
 up a mountain or racing farther than a marathon. Someday I'll hopefully be running on a world team competing on a big stage
-with many top notch athletes.</p>
+with many top-notch athletes. If you're interested, check out my <a href="athlete_resume.pdf" target="_blank"> athlete resume</a>!</p>
 
+<p><center>
+  <img src="lib/jfk.jpg" alt="jfk" width="501" height="334"/>
+  <img src="lib/chuckanut.jpg" alt="chuckanut" width="501" height="334"/>
+  <img src="lib/lake_sonoma.jpg" alt="lake_sonoma" width="501" height="334"/></center></p>
 </body>
 
 </html>
